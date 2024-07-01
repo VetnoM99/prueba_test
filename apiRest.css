@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    margin-bottom: 10px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+#contenido{
+    margin-top: 20px;
+}
+
+.titular{
+    background-color: aliceblue;
+    border-radius: 50px;
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    flex-wrap: nowrap;
+}
+
+.contenido{
+    margin: 20px;
+    display: inline-block;
+}

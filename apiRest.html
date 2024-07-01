@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD con JavaScript y API REST</title>
+    <link rel="stylesheet" href="apiRest.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container-fluid text-center">
+    <h2>Api Rest con java Script</h2>
+
+    <!-- Formulario para crear un nuevo elemento -->
+    <form id="addItemForm">
+        <label for="titular">Titular:</label>
+        <input type="text" id="titular" name="titular" required>
+        <br>
+        <label for="contenido">Contenido:</label>
+        <textarea id="contenido" name="contenido" rows="1" required></textarea>
+        <br>
+        <button type="submit">Crear</button>
+    </form>
+
+    <!-- Contenedor para mostrar los elementos -->
+    <div id="items-container"></div>
+
+    <!-- Mensajes de éxito o error -->
+    <div id="messages">
+        <p id="successMessage" class="success-message" style="display: none;"></p>
+        <p id="errorMessage" class="error-message" style="display: none;"></p>
+    </div>
+       <!-- Contenedor para mostrar los elementos -->
+       <div id="items-container"></div>
+
+       <!-- Mensajes de éxito o error -->
+       <p id="successMessage" class="success-message"></p>
+       <p id="errorMessage" class="error-message"></p>
+   
+</div>
+    <script src="apiRest.js"></script>
+</body>
+</html>
