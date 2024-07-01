@@ -12,5 +12,17 @@
 }
 
 .item{
+    margin: 20px;
     background-color: aquamarine;
+    border-radius: 20px;
+}
+.item h3{
+    
+    margin-left: 30px;}
+
+.item p{
+    margin-left: 20px;
+    background-color: azure;
+    border-radius: 40px;
+    display: inline-block;
 }
