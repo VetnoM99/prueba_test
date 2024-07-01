@@ -1,0 +1,12 @@
+.titular{
+    color: blue;
+    text-shadow: 5px 5px 10px black
+}
+
+.subtitulo{
+    text-shadow: 6px 2px 10px rgb(184, 110, 19);
+}
+
+.subtitulo2{
+    text-shadow: 5px 4px 5px   rgb(10, 100, 103);
+}
