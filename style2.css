@@ -10,3 +10,7 @@
 .subtitulo2{
     text-shadow: 5px 4px 10px   rgb(10, 100, 103);
 }
+
+.item{
+    background-color: aquamarine;
+}
